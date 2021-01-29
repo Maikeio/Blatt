@@ -1,0 +1,7 @@
+main: net.ddns.maikeio.blatt.Main
+name: Blatt
+version: 1.0
+description: Package for custom crafting and more
+api-version: 1.16
+author: Maikeio
+website: www.maikeio.ddns.net
