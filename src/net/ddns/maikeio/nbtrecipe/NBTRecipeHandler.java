@@ -28,6 +28,7 @@ public class NBTRecipeHandler {
 						&& r.getValue().getAddition().isSimilar(recipe.getAddition()))
 				.findAny();
 
+		Bukkit.broadcastMessage(recipe.getResult().getType().name());
 		if (matchingRecipes.isEmpty())
 			SmithingRecipe.put(recipe.getName(), recipe);
 

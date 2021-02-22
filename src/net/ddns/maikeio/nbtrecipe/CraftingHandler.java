@@ -3,20 +3,19 @@ package net.ddns.maikeio.nbtrecipe;
 import java.util.Map.Entry;
 import java.util.Optional;
 
-import org.bukkit.Bukkit;
 import org.bukkit.event.inventory.InventoryType;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-public class CraftingHandler {
+ class CraftingHandler {
 	NBTRecipeHandler handler;
 
-	public CraftingHandler(NBTRecipeHandler handler) {
+	 CraftingHandler(NBTRecipeHandler handler) {
 		this.handler = handler;
 	}
 
-	public ItemStack getSmithingTableResult(ItemStack base, ItemStack addition) {
+	ItemStack getSmithingTableResult(ItemStack base, ItemStack addition) {
 
 		if (base == null || addition == null)
 			return null;
@@ -41,11 +40,11 @@ public class CraftingHandler {
 		return result;
 	}
 
-	public ItemStack getShapelessResult(ItemStack[] ingredient) {
+	ItemStack getShapelessResult(ItemStack[] ingredient) {
 		return null;
 	}
 
-	public ItemStack giveSmithinTableResult(Inventory deInv, int rawSlot) {
+	ItemStack giveSmithinTableResult(Inventory deInv, int rawSlot) {
 		// Inventory of deInvstination
 
 		// Test for Upgrade Item was put into upgrable Dropper

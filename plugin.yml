@@ -1,4 +1,4 @@
-main: net.ddns.maikeio.blatt.Main
+main: net.ddns.maikeio.blatt.Blatt
 name: Blatt
 version: 1.0
 description: Plugin for adding custom items, blocks and NBT recipes
